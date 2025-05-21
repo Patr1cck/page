@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<style>
+    /* 設置全局樣式 */
+    body {
+        font-family: 'Microsoft JhengHei', sans-serif;
+        background-color:cadetblue;
+    }
+
+    /* h1 標題樣式 */
+    #welcome-heading {
+        color: aqua;
+        font-family: '標楷體';
+        text-align: center;
+    }
+
+    /* h2 標題樣式 */
+    .intro-heading {
+        font-size: 24px;
+        color: #333333;
+    }
+
+    /* <mark> 標籤樣式 */
+    .highlight-text {
+        background-color: yellow;
+    }
+
+    /* 連結樣式 */
+    .schedule-link {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .schedule-link:hover {
+        text-decoration: underline;
+    }
+
+    /* p 標籤樣式 */
+    .info-text {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    /* 目標列表樣式 */
+    .goal-list {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+
+    /* 背景顏色的段落 */
+    .highlight-background {
+        background-color: aqua;
+        padding: 10px;
+    }
+</style>
+</head>
+
+<body>
+    <!-- 使用 id 為標題設置樣式 -->
+	
+   <boxmodel><h1 id="welcome-heading">歡迎來到我的個人網站</h1></boxmodel>
+
+    <section>
+        <!-- 使用 class 為標題設置樣式 -->
+        <h2 class="intro-heading"><b><u>413000489</u> <span style="font-size: 18px;"><b><mark class="highlight-text">黃咨博</mark></b></span></b></h2>
+        
+        <!-- 使用 class 為連結設置樣式 -->
+        <a href="schedule.html"target="_blank" class="schedule-link">我的課表</a>
+     <a href="experience.html" target="_blank" class="schedule-link">我的個人經歷</a>
+        <!-- 使用 class 為段落設置樣式 -->
+        <p class="info-text">三個tags是教學影片沒教過的：</p>
+          <img src="ChatGPT Image 2025年4月1日 上午01_23_21.png" width="200">
+        <!-- 使用 ul 和 li 創建有條目清單 -->
+        <ul class="goal-list">
+            <li>變更文字字形</li>
+            <li>更換背景顏色</li>
+            <li>調整字型大小</li>
+        </ul>
+
+        <!-- 使用 class 為段落設置樣式 -->
+        <p class="highlight-background">我的興趣: 平常喜歡看棒球、旅行</p>
+
+        <!-- 使用 class 為段落設置樣式 -->
+        <p class="info-text">這學期的目標是 <mark class="highlight-text">學會網頁設計</mark> 和 <mark class="highlight-text">編程技術及理解程式架構</mark>。</p>
+    </section>
+</body>
+</html>
